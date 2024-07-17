@@ -5,7 +5,7 @@ A simple web application for student registration, allowing users to input and s
 
 ## Demo
 
-Check out the live demo [here](https://abdulmoizqureshi-2640.github.io/LGMVIP-Web-Task-1/).
+Check out the live demo [here](https://abdulmoizqureshi-2640.github.io/LGMVIP-Web-Task-2/).
 
 ## Features
 
