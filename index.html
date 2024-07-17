@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Student Registration Form</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="picture">Upload Picture:</label>
+                    <input type="file" id="picture" name="picture">
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <label for="male">
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            Male
+                        </label>
+                        <label for="female">
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            Female
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Skills:</label>
+                    <div class="checkbox-group">
+                        <label for="html">
+                            <input type="checkbox" id="html" name="skills" value="HTML">
+                            HTML
+                        </label>
+                        <label for="css">
+                            <input type="checkbox" id="css" name="skills" value="CSS">
+                            CSS
+                        </label>
+                        <label for="javascript">
+                            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                            JavaScript
+                        </label>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+
+                <div class="form-group clear-btn">
+                    <button type="clear" class="clear-btn" onclick="clearForm()">Clear</button>
+                </div>
+            </form>
+        </div>
+        <div class="data-container">
+            <div id="displayData">
+                <!-- Submitted data will display here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
